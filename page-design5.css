@@ -1,0 +1,230 @@
+* {
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+
+header {
+    width:100%;
+    height:100vh;
+    background: url("leaves.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header section{
+  width:90%;
+  margin:auto;
+}
+
+header section .logo {
+    padding:30px 40px;
+    color:white;
+    font-weight: 900;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+header section nav {
+    padding:30px 40px;
+    float:right;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    padding:10px;
+}
+
+.active {
+    /* background-color: white; */
+    color:white;
+    padding: 15px;
+    border:1px solid white;
+    /* border-radius:50px ; */
+}
+
+nav ul li a:hover {
+    /* background-color: white; */
+    color:white;
+     padding: 15px; 
+    /* border-radius:50px ; */
+    border:1px solid white
+
+}
+
+
+.banner_content {
+    width:100%;
+    margin:12% auto;
+    text-align: center;
+}
+
+.banner_content h1 {
+    font-size: 80px;
+    color: white;
+
+}
+
+.banner_content p {
+    font-size: 30px;
+    color:white;
+}
+
+.banner_content a {
+    /* background-color: purple; */
+    color:white;
+    padding:20px;
+    text-decoration: none;
+    display: inline-block;
+    /* border-radius: 50px; */
+    margin-top: 20px;
+    border:1px solid white;
+}
+
+.banner_content a:hover {
+    background-color: #fff;
+    color:gray;
+}
+
+.about {
+    text-align: center;
+    padding:40px;
+    width:100%;
+    margin:auto;
+    background-color: gainsboro;
+}
+
+
+.about .all_section {
+    width:100%;
+    margin:20px auto;
+}
+
+.about .about_sec {
+    width:30%;
+    border:1px solid white;
+    float: left;
+    margin-left: 33px;
+    background-color: white;
+}
+
+.about .about_sec img {
+    width:50px;
+}
+
+.about_sec .cloud {
+    border-radius: 50%;
+    border-color:lightskyblue;
+    width:100px;
+    height:100px;
+    padding: 25px;
+    margin:20px auto;
+}
+
+.about_content {
+    padding:20px;
+}
+
+.about h1 {
+    font-size:50px;
+}
+
+.about h1+p {
+    font-size:20px;
+}
+
+.partners {
+     margin:50px auto;
+     width:90%;
+     text-align: center;
+}
+
+
+.partners h1 {
+    font-size: 20px;
+}
+
+.partners_id {
+    float: left;
+    margin-top:10px;
+    padding-bottom:20px;
+}
+.partners_id .single_Partner {
+    float: left;
+}
+.single_Partner div {
+float: left;
+}
+
+.text_div {
+    margin-top: 60px;
+    
+}
+
+.partners h1+p {
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 30px;
+}
+
+
+.about_partners {
+    padding:20px 30px;
+    border-top:1px solid gainsboro;
+    margin-top: 16%;
+}
+.about_partners a {
+    text-decoration: none;
+    color:white;
+    background-color:rgb(64, 123, 146);
+    padding:10px;
+    margin-top: 1%;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.above_footer {
+    height:30px;
+    width:100%;
+    background-color: skyblue;
+    /* margin-left: 5%; */
+}
+
+footer {
+    height:200px;
+    background-color: black;
+    color:white;
+    /* margin-left: 5%; */
+}
+
+footer h4 {
+    font-size : 24px;
+    }
+
+    footer div {
+        float:left;
+        margin-left:13%;
+    }
+
+    footer div ul li {
+        list-style-type: none;
+        margin-top:5px;
+    }
+
+    footer div ul li a {
+        text-decoration: none;
+        color:gainsboro;
+    }
+
+    footer div ul li a:hover {
+        color:white;
+    }
